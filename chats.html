@@ -34,5 +34,50 @@
       </div>
     </div>
   </header>
+  <main class="chats">
+    <div class="search-bar"> <!-- 검색 창 -->
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, Plus friends">
+    </div>
+    <ul class="chats__list"> <!-- chatting list -->
+      <li class="chats__chat">
+        <div class="chat__content"> <!-- 2개의 칼럼 중 1번째 칼럼 아이콘+최근메시지-->
+          <img src="images/avatar.jpg">
+          <div class="chat_preview">
+            <h3 class="chat_user">Ja Hyun</h3>
+            <span class="chat__last-message">Heelo! This is test message</span>
+          </div>
+        </div>
+        <span class="chat__date-time">14:33</span> <!-- 2개의 칼럼 중 2번째 칼럼 수신한 메시지 시간-->
+      </li>
+      <li class="chats__chat">
+        <div class="chat__content"> <!-- 2개의 칼럼 중 1번째 칼럼 아이콘+최근메시지-->
+          <img src="images/avatar.jpg">
+          <div class="chat_preview">
+            <h3 class="chat_user">KaKaoTalk</h3>
+            <span class="chat__last-message">You logged into KaKaoTalk</span>
+          </div>
+        </div>
+        <span class="chat__date-time">14:54</span> <!-- 2개의 칼럼 중 2번째 칼럼 수신한 메시지 시간-->
+      </li>
+    </ul>
+    <div class="chat-btn">
+      <i class="fas fa-comment"></i>
+    </div>
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab">
+      <i class="fas fa-user"></i><span class="tab-bar__title">Friends</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fas fa-comment"></i><span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fas fa-search"></i><span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fas fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
+    </a>
+  </nav>
 </body>
 </html>
