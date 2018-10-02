@@ -9,11 +9,11 @@
   <title>Ja Huyn</title>
 </head>
 <body>
-  <header>
-    <div class="header__top">
+  <header> <!--Top 2div -->
+    <div class="header__top"> <!-- condition bar -->
       <div class="heaer__column"></div>
-        <i class="fas fa-fighter-jet"></i><!-- plane icon  -->
-        <i class="fa fa-wifi"></i><!-- wifit icon -->
+        <i class="fas fa-fighter-jet"></i>
+        <i class="fa fa-wifi"></i>
       <div class="heaer__column">
         <span class="header_time">18:38</span>
       </div>
@@ -23,7 +23,7 @@
         <span class="header_battery0">66%<i class="fas fa-battery-full"></i><!-- battery icon--></span>
       </div>
     </div>
-    <div class="div header__bottom">
+    <div class="div header__bottom"> <!--whos chatting bar -->
       <div class="header__column">
         <i class="fas fa-chevron-left fa-lg"></i><!-- chevron-left fa-lg는 크게보이는효과-->
       </div>
@@ -35,5 +35,32 @@
       </div>
     </div>
   </header>
+  <main class="chat"> <!-- chatting textarea -->
+    <div class="date-divider">
+      <span class="date-divider__text">
+        Tuesday, October, 2, 2018
+      </span>
+    </div>
+    <div class="chat__message chat__message-from-me">
+      <span class="chat_message-time">21:00</span>
+      <span class="chat_message-body">Hello! This is a test message.</span>
+    </div>
+    <div class="chat__message chat__message-to-me">
+      <img src="images/avatar.jpg" alt="" class="chat__message-avatar">
+      <h3 class="chat__message-username">Ja Hyun</h3>
+      <div class="chat__message-center">
+        I like cats.
+      </div>
+      <span class="chat_message-time">21:00</span>
+    </div>
+  </main>
+  <div class="type-message"> <!--write chatting message area -->
+    <i class="fas fa-plus"></i>
+    <div class="type-message__input">
+      <input type="text">
+      <i class="far fa-smile"></i>
+      <span class="record-message"><i class="fas fa-microphone"></i></span>
+    </div>
+  </div>
 </body>
 </html>
