@@ -10,7 +10,7 @@
 </head>
 <body>
   <header>
-    <div class="header__top">
+    <div class="header__top"><!-- condition bar -->
       <div class="heaer__column"></div>
         <i class="fas fa-fighter-jet"></i><!-- plane icon  -->
         <i class="fa fa-wifi"></i><!-- wifit icon -->
@@ -23,16 +23,39 @@
         <span class="header_battery0">66%<i class="fas fa-battery-full"></i><!-- battery icon--></span>
       </div>
     </div>
-    <div class="div header__bottom">
+    <div class="div header__bottom"> <!--X, user icon bar -->
       <div class="header__column">
-        <i class="fas fa-times fa-lg"></i> <!-- X icon -->
+        <a href="index.html">
+          <i class="fas fa-times fa-lg"></i>
+        </a>
       </div>
       <div class="header__column"></div>
 
       <div class="header__column">
-        <i class="fas fa-user"></i> <!-- user icon-->
+        <i class="fas fa-user fa-lg"></i>
       </div>
     </div>
   </header>
+  <main class="profile"> <!-- Profile email, actions, edit -->
+    <header class="profile__header">
+      <img src="images/ggouo.jpg" alt="">
+      <h3 class="profile__header-title">JaeSung</h3>
+    </header>
+    <input type="text" placeholder="v987@korea.com">
+    <div class="profile__actions">
+      <div class="profile__actions">
+        <span class="profile__action-circle">
+        <i class="fas fa-comment fa-2x"></i>
+      </span>
+        <span class="profile__action-title">My chatroom</span>
+      </div>
+      <div class="profile__actions">
+        <span class="profile__action-circle">
+          <i class="fas fa-pencil-alt fa-2x"></i>
+        </span>
+        <span class="profile__action-title">Edit profile</span>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
