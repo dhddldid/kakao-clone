@@ -4,5 +4,6 @@
 /* globals에 작성한 내용들이 헤더에도 적용 open sans 적용 from google fonts */
 @import "header.css";
 @import "navigation.css";
-
+@import "search-bar.css";
+@import "friend.css";
 /* 크롬확장팩 설치 Page Ruler, ColorZilla  */
