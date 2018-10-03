@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+@import "reset.css";
+@import "globals.css";
+/* globals에 작성한 내용들이 헤더에도 적용 open sans 적용 from google fonts */
+@import "header.css";
+@import "navigation.css";
+
+/* 크롬확장팩 설치 Page Ruler, ColorZilla  */
