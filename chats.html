@@ -10,11 +10,12 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="top-header">
-    <div class="header__top"><!-- condition bar -->
-      <div class="header__column"></div>
+  <header class="top-header"> <!-- 상단 -->
+    <div class="header__top"> <!-- condition bar -->
+      <div class="header__column">
         <i class="fas fa-fighter-jet"></i><!-- plane icon  -->
         <i class="fa fa-wifi"></i><!-- wifit icon -->
+      </div>
       <div class="header__column">
         <span class="header_time">18:38</span>
       </div>
@@ -26,16 +27,17 @@
     </div>
     <div class="header__bottom">
       <div class="header__column">
-        <span class="header__text">Edit</span>
+        <span class="header__text">Manage</span>
       </div>
       <div class="header__column">
-        <span class="haeder__text">Chats <i class="fas fa-caret-down"></i><!--caret--></span>
+        <span class="header__text">Friends <span class="header__number">1</span></span>
       </div>
       <div class="header__column">
-
+        <i class="fas fa-cog"></i><!-- cog icon -->
       </div>
     </div>
   </header>
+
   <main class="chats">
     <div class="search-bar"> <!-- 검색 창 -->
       <i class="fas fa-search"></i>
@@ -46,9 +48,9 @@
         <a href="chat.html">
           <div class="chat__content"> <!-- 2개의 칼럼 중 1번째 칼럼 아이콘+최근메시지-->
             <img src="images/avatar.jpg">
-            <div class="chat_preview">
-              <h3 class="chat_user">Ja Hyun</h3>
-              <span class="chat__last-message">Heelo! This is test message</span>
+            <div class="chat__preview">
+              <h3 class="chat__user">Ja Hyun</h3>
+              <span class="chat__last-message">Hello! This is test message</span>
             </div>
           </div>
           <span class="chat__date-time">14:33</span> <!-- 2개의 칼럼 중 2번째 칼럼 수신한 메시지 시간-->
@@ -58,8 +60,8 @@
         <a href="">
           <div class="chat__content"> <!-- 2개의 칼럼 중 1번째 칼럼 아이콘+최근메시지-->
             <img src="images/KaKaoTalk__main.jpg">
-            <div class="chat_preview">
-              <h3 class="chat_user">KaKaoTalk</h3>
+            <div class="chat__preview">
+              <h3 class="chat__user">KaKaoTalk</h3>
               <span class="chat__last-message">You logged into KaKaoTalk</span>
             </div>
           </div>
