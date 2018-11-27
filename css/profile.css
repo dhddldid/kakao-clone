@@ -1,0 +1,29 @@
+.top-header--transparent {
+  background-color: transparent;
+}
+
+.profile .profile__header {
+  height: 88vh;
+  /* vh = view of height */
+  background-color: red;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile__header .profile__header-container {
+  text-align: center;
+  position: relative;
+  /* bottom 이런걸로 움직일수있게 relative를 줌 */
+  bottom: -60px;
+}
+
+.profile__header-container img {
+  width: 100px;
+  height: 50%;
+  margin-bottom: 10px;
+}
