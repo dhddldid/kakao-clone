@@ -3,12 +3,12 @@
 }
 
 .profile .profile__header {
-  height: 88vh;
+  height: 80vh;
   /* vh = view of height */
   background-image: url("https://www.sketchappsources.com/resources/source-images-plus1/material-design-icon-patterns-1.png");
-  /* background-position: center center; */
-  /* background-size: 100%; */
-  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: repeat;
   width: 100%;
   position: relative;
   top: -60px;
