@@ -62,4 +62,11 @@
   color: #523737;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   /* 사이드에서0픽셀 하단에서 1픽셀 흐리게보이는효과 blur 5픽셀 rgba는 검정색  */
+  transition: color 0.3s, background 0.3s, transform 0.5s ease-in-out;
+}
+
+.chat-btn:hover {
+  color: white;
+  background: #523737;
+  transform: rotateY(1turn);
 }

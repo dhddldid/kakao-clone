@@ -14,11 +14,12 @@
   background-color: #f1f2f3;
   font-size: 13px;
   text-align: center;
-  transition: border-color 2s linear;
+  transition: border-color 0.2s linear;
 }
 
 .search-bar input:focus {
   outline: none;
+  /* border: 1px solid #ffe94a; */
   border-color: #ffe94a;
 }
 

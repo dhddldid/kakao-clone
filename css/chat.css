@@ -1,3 +1,7 @@
+.body-chat {
+  padding-bottom: 0;
+}
+
 .chat-header,
 .chat-header a {
   background-color: #a1c0d6;
@@ -13,6 +17,8 @@
   height: 100vh;
   /* 100% */
   padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .chat .date-divider {
@@ -30,6 +36,10 @@
 
 .chat__message-from-me {
   justify-content: flex-end;
+}
+
+.chat__message-to-me img {
+  align-self: flex-start;
 }
 
 .chat_message-time {
@@ -72,6 +82,38 @@
   position: fixed;
   height: 45px;
   background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
-/* 10분50초 */
+.type-message .fa-plus {
+  color: #b4b4b4;
+}
+
+.type-message__input {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.type-message__input input {
+  width: 100%;
+  padding: 10px;
+}
+
+.type-message__input .fa-smile {
+  position: absolute;
+  right: 40px;
+  color: #b4b4b4;
+}
+
+.type-message__input .record-message {
+  color: #523737;
+  background-color: #ffe934;
+  padding: 10px;
+  cursor: pointer;
+}
